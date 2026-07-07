@@ -1,1 +1,43 @@
-
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <title> christy|About Me</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+      <body>
+      <header class="header">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+      </header>
+      <main class="container">
+        <section class="content">
+          <h1>About me</h1>
+          <img class="36990.jpg" src="37068.jpg" alt="christy">
+        <p> my name is christy i like space and i built this site to share a little about myself</p>
+        <button class="btn" onclick="toggleskills()">showskills</button>
+        <div id="skills" class="hidden">
+          <ul>
+            <li>web design</li>
+            <li>html and css</li>
+            <li>communication</li>
+          </ul>
+        </div>
+        </section>
+      </main>
+        <footer class="footer">
+        <p>2026 christy</p>
+        </footer>
+        <script> 
+        function toggleskills(){
+          const skills=document.getElementById("skills");
+          skills.classList.toggle("hidden");
+        }
+        </script>
+      </body>
+</html>
+          
