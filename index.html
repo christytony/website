@@ -2,10 +2,38 @@
 <html lang="eng">
   <head>
     <meta charset='utf-8>
-      <title>Hello earth</title>
+      <meta name="viewport" content="width=device-width,intitial-scale=1.0"/>
+      <title>christy| Home</title>
+      <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-      <h1>hello earth</h1>
-      <p>this is a web page.</p>
+      <header class="header">
+      <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact</a>
+      </nav>
+      </header>
+<main class="container">
+      <section class="hero">
+      <div class="hero-text">
+      <h1>hi im christy</h1>
+      <p>welcome to my website</p>
+      <button class="btn" onclick="showWelcome()">click me</button>
+      <p id="message" class="message"></p>
+      </div>
+<div class="hero-image">
+      <img src="36989.jpg" alt="christy profile picture"/>
+      </div>
+      </section>
+      </main>
+<footer class="footer">
+      <p>@ 2026 christy</p>
+      </footer>
+<script>
+      function showWelcome() {
+      document.getElementById("message").textContent="thank for visiting my website!";
+      }
+      </script>
       </body>
       </html>
