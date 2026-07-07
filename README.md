@@ -1,2 +1,2 @@
 # website
-christy.github.io
+christy
