@@ -74,7 +74,7 @@ body{
 }
 .btn:hover{
   background: #FFC107;
-  transform: teanslateY(-3px);
+  transform: translateY(-3px);
 }
 .content {
   background: rgba(45,27,105,0.90);
@@ -82,13 +82,21 @@ body{
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  color: white;
 }
 .content h1 {
   margin-bottom: 20px;
   color: #FFFFFF;
+}
 .content h2{
   color: #FFD700;
   margin-bottom: 15px;
+}
+.content p,
+.content li,
+.content a,
+.content span {
+  color: white;
 }
 label{
   display: block;
