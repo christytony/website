@@ -1,3 +1,3 @@
 # website
 christy
-[link](https://christytony.github.io/website/)
+[link](https://github.com/christytony/website/main/README.md)
