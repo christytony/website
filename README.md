@@ -1,3 +1,3 @@
 # website
 christy
-[link](https://christy.com)
+[link](https://christytony.github.io/website/)
