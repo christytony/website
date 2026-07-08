@@ -1,1 +1,43 @@
-
+<!DOCETYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>chrity|contact</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="contact">
+        <h1>Contact Me</h1>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="your name" required/>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your email" required/>
+          <label for="message">Message</label>
+          <textarea id="messageBox" name="message" placeholder="write your message" required></textarea>
+            <button type="submit" class="btn">send message</button>
+        </form>
+        <p id="formResult" class="message"></p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>2026 christy</p>
+    </footer>
+    <script>
+      document.gotElementById("contactForm").addEventListener("submit",function(e){
+        e.preventDefault();
+        document.getElementById("formResult").textContent="message sent successfully!";
+        this.reset();
+      });
+    </script>
+  </body>
+</html>
