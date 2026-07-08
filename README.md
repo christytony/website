@@ -1,4 +1,5 @@
 # website
 christy
-[link][Check out my personal portfolio site](https://christytony.github.io/website/)
+<p> Just started and testing it out</p>
+<a href="https://christytony.github.io/website/"> check the link</a>
 
