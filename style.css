@@ -86,14 +86,13 @@ body{
 .content h1 {
   margin-bottom: 20px;
   color: #FFFFFF;
-}
-p {
-  color: #FFFFFF !important;
-}
 .content h2{
   color: #FFD700;
   margin-bottom: 15px;
 }
+  p{
+    color: #FFFFFF !important;
+  }
 .content p,
 .content form{
   margin-bottom: 15px;
