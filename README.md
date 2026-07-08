@@ -1,3 +1,4 @@
 # website
 christy
-[link](https://github.com/christytony/website/main/README.md)
+[link][Check out my personal portfolio site](https://christytony.github.io/website/)
+
