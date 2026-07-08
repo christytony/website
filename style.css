@@ -95,6 +95,11 @@ body{
 .content form{
   margin-bottom: 15px;
 }
+.content p,
+.content form{
+  margin-bottom: 15px;
+  color: #FFFFFF;
+}
 label{
   display: block;
   margin-top: 12px;
