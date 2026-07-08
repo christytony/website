@@ -2,7 +2,7 @@
 <html lang="eng">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
     <title> christy|About Me</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -16,10 +16,15 @@
       </header>
       <main class="container">
         <section class="content">
-          <h1>About me</h1>
-          <img class="36990.jpg" src="37068.jpg" alt="christy">
-        <p> my name is christy i like space and i built this site to share a little about myself</p>
-        <button class="btn" onclick="toggleskills()">showskills</button>
+          <h1>✨ About Me ✨</h1>
+          <h2 id="greeting"></h2>
+          <p>🌌 space lover</p>
+          <p>💻 science student</p>
+          <p>☕ coffee enthusiast</p>
+          <p>📚 always learning</p>
+          <img class="profile-img" src="37068.jpg" alt="photos by christy">
+        <p>Explore my skills, interests, and projects, im alaways learning and excited to build new things</p>
+        <button class="btn" onclick="toggleskills()">✨Show My Skills</button>
         <div id="skills" class="hidden">
           <ul>
             <li>web design</li>
@@ -37,6 +42,16 @@
           const skills=document.getElementById("skills");
           skills.classList.toggle("hidden");
         }
+          const hour= new Data().getHours();
+          let greeting="";
+          if (hour<12){
+            greeting="☀️ Good Morning!";
+          } else if(hour,18){
+            greeting="🌸Good Afternoon!";
+          } else {
+            greeting ="🌙Good Evening!";
+          }
+          document.getElementById("greeting").textContent=greeting;
         </script>
       </body>
 </html>
