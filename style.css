@@ -12,8 +12,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: #f4f7fb;
-  color: #222;
 }
 .header {
   background: rgba(45,27,105,0.9);
